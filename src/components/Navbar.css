@@ -1,0 +1,74 @@
+
+/* Navbar.css */
+nav {
+  position: fixed; /* Fixe le menu en haut */
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 140px;
+  z-index: 1000;
+  background-color: white;
+  transition: top 0.3s; /* Transition fluide pour la disparition et l'apparition */
+}
+
+/* Supprimer les puces de liste */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+/* Alignement horizontal des éléments de la liste */
+nav ul li {
+  display: inline-block;  /* Afficher les éléments en ligne */
+  margin-right: 100px;      /* Espacement entre les éléments */
+}
+
+/* Style des liens pour les rendre non soulignés */
+nav ul li a {
+  text-decoration: none;
+  color: #0000FF; /* Couleur du texte */
+  font-weight: bold;
+}
+
+/* Effet au survol */
+nav ul li a:hover {
+  color: #007BFF; /* Couleur au survol */
+}
+
+/* Style pour le bouton de login */
+.login-button {
+  position: absolute;
+  top: 10px;  /* Décalage vers le haut */
+  right: 20px; /* Décalage vers la droite */
+  background-color: #007BFF; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+/* Style pour le bouton de inscription */
+.subscriber-button {
+  position: absolute;
+  top: 10px;  /* Décalage vers le haut */
+  right: 150px; /* Décalage vers la droite */
+  background-color: #007BFF; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.subscriber-button:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+}
